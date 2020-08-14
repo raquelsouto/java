@@ -1,0 +1,41 @@
+Desejo realizar um sistema de vendas.
+
+No relatório de saída, 
+
+	Deve estar presente informações do Cliente, como:
+	- Nome
+	- Endereço
+	- Telefone
+	- CPF
+
+	Também sera apresentada uma lista dos produtos que foram comprados. Como exemplo, desejo que a lista contenha:
+	- 4 Iphone - R$ 9.999,00
+	- 2 Galaxy S20 - R$ 9.586,96
+	- 1 Mac Book Pro - R$ 59.900,00
+	OBS: Você deve pesquisar os valores reais dos itens Todos os valores devem ser os mais CAROS que você encontrar.
+
+	Também deve ser informada a forma de pagamento:
+	- Cartão de Crédito, Débito ou Dinheiro (Não aceitamos cheque e fiado só no Armazém Paraíba).
+
+Exemplo de saída:
+
+=================================================
+	Relatório da Venda
+
+Cliente: Bruno Winkeler
+Endereço:  Rua João do Pé de feijão, 123, Campina Grande - PB
+Telefone: 32323-1122
+CPF: 098.001.006-44
+
+Num | Descrição | Quantidade | Valor Unitário (R$) | Valor Total (R$)
+
+1. | Iphone | 4 un | X | 4*X
+2. | Galaxy S20 | 2 un | Y | 2*Y
+3. | Mac Book Pro | 1 un | Z | 1*Z
+
+Valor Total da Venda: R$ TOTAL = (4*X + 2*Y + 1*Z)
+
+Forma de Pagamento: (Cartão de Crédito | Cartão de Débito | Dinheiro)
+Número de Parcelas: N parcelas
+Valor por Parcela: R$ (TOTAL/N)
+=================================================
